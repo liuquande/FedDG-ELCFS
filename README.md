@@ -5,4 +5,7 @@ by [Quande Liu](https://github.com/liuquande), [Cheng Chen](https://cchen-cc.git
 
 This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space](https://arxiv.org/pdf/2103.06030.pdf)'. 
 
+![](figure/cvpr21_feddg.png)
+
+
 The code will com soon!
