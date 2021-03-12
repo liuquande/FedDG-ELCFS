@@ -8,4 +8,4 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
 ![](figure/cvpr21_feddg.png)
 
 
-The code will com soon!
+The code will come soon!
