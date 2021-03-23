@@ -41,7 +41,7 @@ If this repository is useful for your research, please consider citing:
 @article{liu2021feddg,
   title={FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space},
   author={Liu, Quande and Chen, Cheng and Qin, Jing and Dou, Qi and Heng, Pheng-Ann},
-  journal={arXiv preprint arXiv:2103.06030},
+  journal={The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2021}
 }
 ```
