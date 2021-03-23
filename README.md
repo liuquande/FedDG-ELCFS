@@ -28,4 +28,18 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
         ├── clientxxx
         ├── clientxxx
    ```
+4. Train the federated learning model with ELCFS:
+   ```shell
+   python train_ELCFS.py
+   ```
    
+### Citation
+If this repository is useful for your research, please consider citing:
+```
+@article{liu2021feddg,
+  title={FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space},
+  author={Liu, Quande and Chen, Cheng and Qin, Jing and Dou, Qi and Heng, Pheng-Ann},
+  journal={arXiv preprint arXiv:2103.06030},
+  year={2021}
+}
+```
