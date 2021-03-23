@@ -15,7 +15,11 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
    python freq_space_interpolation_demo.py
    ```
 
-2. organize the dataset as:
+2. prepare the dataset from clients, and (1) save the data to 'npy' format and (2) extract the amplitude spectrum of each client's dataset
+   ```shell
+   python dataset/prepare_dataset.py
+   ```
+3. organize the dataset as:
    ``` 
      ├── dataset
         ├── client1
@@ -24,3 +28,4 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
         ├── clientxxx
         ├── clientxxx
    ```
+   
