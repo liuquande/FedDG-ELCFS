@@ -19,10 +19,10 @@ class Dataset(Dataset):
         self.client_name = ['Site1', 'Site2', 'Site3', 'Site4']
         self.freq_list_clients = []
         if split=='train':
-            self.image_list = glob('/research/pheng4/qdliu/dataset/Fundus/{}/processed/npy/*'.format(self.client_name[client_idx]))
+            self.image_list = glob('xxx/dataset/{}/data_npy/*'.format(self.client_name[client_idx]))
 
             for i in range(len(self.client_name)):
-                freq_list = glob('/research/pheng4/qdliu/federated_learning/generalization/FedGen-Fundus/frequency_statistic/{}/*'.format(self.client_name[i]))
+                freq_list = glob('xxx/dataset/{}/freq_amp/*'.format(self.client_name[i]))
                 length = len(freq_list)
                 freq_list = random.sample(freq_list, int(length/8))
                 self.freq_list_clients.append(freq_list)
