@@ -8,4 +8,11 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
 ![](figure/cvpr21_feddg.png)
 
 
-The code will come soon!
+### Usage
+
+1. Start with a demo for continuous frequency space interpolation among federated clicnets:
+   ```shell
+   python freq_space_interpolation_demo.py
+   ```
+
+2. 
