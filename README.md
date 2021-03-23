@@ -15,4 +15,10 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
    python freq_space_interpolation_demo.py
    ```
 
-2. 
+2. organize the dataset as:
+   > ├── dataset
+   >     ├── client1
+   >        ├── npy
+   >        ├── freq_amp
+   >     ├── clientxxx
+   >     ├── clientxxx
