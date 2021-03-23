@@ -47,4 +47,4 @@ If this repository is useful for your research, please consider citing:
 ```
 
 #### Acknowledgement
-Some of the code is adapted from [SAML](https://github.com/liuquande/SAML) and [FDA](https://github.com/YanchaoYang/FDA). The dataset used in this paper is downloaded from [Prostate](https://liuquande.github.io/SAML/) and [Fundus](https://github.com/EmmaW8/Dofe).
+Some of the code is adapted from [SAML](https://github.com/liuquande/SAML) and [FDA](https://github.com/YanchaoYang/FDA). The datasets used in this paper are downloaded from [Prostate](https://liuquande.github.io/SAML/) and [Fundus](https://github.com/EmmaW8/Dofe).
