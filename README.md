@@ -17,11 +17,11 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
    <img src="figure/demo.png" width="600"/>
 </p>
 
-2. prepare the dataset from clients, and (1) save the data to 'npy' format and (2) extract the amplitude spectrum of each client's dataset
+2. prepare the dataset and save the data from each client as npy, then extract the amplitude spectrum of each client's dataset by:
    ```shell
    python dataset/prepare_dataset.py
    ```
-3. organize the dataset as:
+3. organize the dataset of each client as:
    ``` 
      ├── dataset
         ├── client1
