@@ -16,13 +16,13 @@ class Dataset(Dataset):
     """ LA Dataset """
     def __init__(self, client_idx=None, freq_site_idx=None, split='train', transform=None):
         self.transform = transform
-        self.client_name = ['Site1', 'Site2', 'Site3', 'Site4']
+        self.client_name = ['client1', 'client2', 'client3', 'client4']
         self.freq_list_clients = []
         if split=='train':
             self.image_list = glob('xxx/dataset/{}/data_npy/*'.format(self.client_name[client_idx]))
 
             for i in range(len(self.client_name)):
-                freq_list = glob('xxx/dataset/{}/freq_amp/*'.format(self.client_name[i]))
+                freq_list = glob('xxx/dataset/{}/freq_amp_npy/*'.format(self.client_name[i]))
                 length = len(freq_list)
                 freq_list = random.sample(freq_list, int(length/8))
                 self.freq_list_clients.append(freq_list)

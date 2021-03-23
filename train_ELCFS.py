@@ -25,7 +25,7 @@ from pytorch_metric_learning import losses
 from networks.unet2d import Unet2D
 from utils.losses import dice_loss
 from utils.util import _eval_dice, _eval_haus, _connectivity_region_analysis, parse_fn_haus
-from dataloaders.prepare_dataset import Dataset, ToTensor
+from dataloaders.fundus_dataloader import Dataset, ToTensor
 
 
 parser = argparse.ArgumentParser()
@@ -55,7 +55,7 @@ client_num = args.client_num
 max_epoch = args.max_epoch
 display_freq = args.display_freq
 
-client_name = ['Site1', 'Site2', 'Site3', 'Site4']
+client_name = ['client1', 'client2', 'client3', 'client4'
 client_data_list = []
 for client_idx in range(client_num):
     client_data_list.append(glob('/research/pheng4/qdliu/dataset/Fundus/{}/processed/npy/*'.format(client_name[client_idx])))
