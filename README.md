@@ -25,8 +25,10 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
    ``` 
      ├── dataset
         ├── client1
-           ├── npy
-           ├── freq_amp
+           ├── data_npy
+               ├── sample1, sample2, xxxx
+           ├── freq_amp_npy
+               ├── amp_sample1, amp_sample2, xxxx
         ├── clientxxx
         ├── clientxxx
    ```
