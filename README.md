@@ -16,9 +16,10 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
    ```
 
 2. organize the dataset as:
-   > ├── dataset
+   ``` ├── dataset
         ├── client1
            ├── npy
            ├── freq_amp
         ├── clientxxx
         ├── clientxxx
+   ```
