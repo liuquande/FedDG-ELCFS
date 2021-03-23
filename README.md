@@ -13,7 +13,7 @@ This repository is for our CVPR 2021 paper '[FedDG: Federated Domain Generalizat
    ```shell
    python freq_space_interpolation_demo.py
    ```
-![drawing](./figure/demo.png){ width=50% }
+<img src="figure/demo.png" width="200">
 
 2. prepare the dataset from clients, and (1) save the data to 'npy' format and (2) extract the amplitude spectrum of each client's dataset
    ```shell
