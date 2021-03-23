@@ -46,5 +46,5 @@ If this repository is useful for your research, please consider citing:
 }
 ```
 
-#### Citation
-Part of the code is adapted from [FDA](https://github.com/YanchaoYang/FDA)
+#### Acknowledgement
+Part of the code is adapted from [SAML](https://github.com/liuquande/SAML) and [FDA](https://github.com/YanchaoYang/FDA)
